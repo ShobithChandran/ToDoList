@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body background="./b1.jpg" style="background-size: contain;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: blanchedalmond;">
+        <img src="./logo.png" width="30" height="30">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="main.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ToDoList <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" onclick="window.localStorage.setItem('user', undefined)">Log Out</a>
+              </li>
+        </div>
+      </nav>
+  
+  <div class="container marginTop marginBottomReduce minHeight mb-5 " >
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-10 mt-3" style="z-index: 100;">
+            
+            <center><h3 id="welcome"></h3></center>
+        </div>
+
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8 col-10 " style="z-index: 100;">
+            <table class="table table-dark" id="todoList">
+              <thead>
+                <tr>
+                  <th scope="col">User ID</th>
+                  <th scope="col">ID</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Completed</th>
+                </tr>
+              </thead>
+            </table>
+        </div>
+    </div>
+</div>
+<footer id="footer"><h5>Copyright@Shobith-2021</h5></footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<script src="todo.js"></script>
+
+</body>
+</html>

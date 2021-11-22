@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+#marquee{
+    font-weight: bolder;
+    font-size: 2em;
+    color: red;
+}
+.navbar-light{
+    font-weight: bolder;
+    font-family: cursive;
+}
+.navbar-brand{
+    background-color: blanchedalmond;;
+}
+footer{
+    background-color:black;
+    color: white;
+    height: 2em;
+    margin-top: 3.15%;
+}
+footer h5{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.login{
+    border: 3px solid red;
+    border-style: groove;
+    background-color: transparent;
+    height: 25em;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 30px;
+}
+label{
+    color: white;
+}
+.login h2{
+    color: red;
+    text-align: center;
+    /* text-decoration: underline; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.login label{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+.login input{
+    height: 1.5em;
+}
+#footer{
+    height: 2em;
+    margin-top: 329px;
+    text-align: center;
+    background-color: transparent;
+}
+#submit{
+    padding: 8px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-right: 8px;
+}
+#submit:hover{
+    background-color:black;
+    color: white;
+    transition: .4s ease-in-out;
+}
+#mainwlcm1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    color: yellow;
+    text-align: center;
+    text-shadow: black;
+}
+#mainwlcm2{
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    text-shadow: orange;
+}
+#mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.75%;
+    height: 30%;
+}
